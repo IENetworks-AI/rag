@@ -1,6 +1,7 @@
 # Core FastAPI
 fastapi==0.116.1
 uvicorn==0.35.0
+gunicorn==22.1.0
 
 # LangChain & AI
 langchain==0.3.27
