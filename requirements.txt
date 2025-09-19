@@ -1,7 +1,7 @@
 # Core FastAPI
 fastapi==0.116.1
-gunicorn==22.1.0
 uvicorn==0.22.0
+gunicorn==23.0.0
 
 # LangChain & AI
 langchain==0.3.27
@@ -20,7 +20,7 @@ safetensors==0.6.2
 faiss-cpu==1.12.0
 rank-bm25==0.2.2
 
-# Torch (CPU only, from PyPI)
+# Torch (CPU only)
 torch==2.8.0
 
 # Utilities
@@ -34,7 +34,6 @@ numpy==2.3.2
 pandas==2.3.2
 scikit-learn==1.7.1
 scipy==1.16.1
-
 
 # Misc
 dataclasses-json==0.6.7
