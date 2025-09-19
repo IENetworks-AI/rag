@@ -1,6 +1,4 @@
-# main.py
+# main.py at repo root
 from app.api import app  # import your FastAPI app
 
-if __name__ == "__main__":
-    import uvicorn
-    uvicorn.run(app, host="0.0.0.0", port=8000)
+# No uvicorn.run() needed — Vercel will handle execution
